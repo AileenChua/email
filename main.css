@@ -10,7 +10,9 @@ img{
 body{
   padding: 50px 100px;
   font-family: Quicksand, Calibri, sans-serif;
-
+}
+a:hover{
+  pointer:cursor;
 }
 .title{
   text-align: center;
@@ -80,9 +82,10 @@ footer{
 }
 button{
   padding: 10px;
-    background:#5caad2;
-    color: white;
-}
+  background:#5caad2;
+  color: white;
+  transition: 0.2s;
+  }
 div.options{
   text-align: center;
 }
