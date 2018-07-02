@@ -26,6 +26,7 @@ table.options{
 }
 div.options div p:hover{
   text-decoration:underline;
+  pointer:cursor;
 }
 button:hover{
  transform: scale(1.1); 
