@@ -12,7 +12,7 @@ body{
   font-family: Quicksand, Calibri, sans-serif;
 }
 a:hover{
-  pointer:cursor;
+  cursor:pointer;
 }
 .title{
   text-align: center;
@@ -20,7 +20,7 @@ a:hover{
   margin-bottom: 20px;
 }
 .title:hover{
-  pointer:cursor;
+  cursor:pointer;
 }
 table.options{
   width: 30%;
@@ -29,7 +29,7 @@ table.options{
 }
 div.options div p:hover{
   text-decoration:underline;
-  pointer:cursor;
+  cursor:pointer
 }
 button:hover{
  transform: scale(1.1); 
