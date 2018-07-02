@@ -19,6 +19,9 @@ a:hover{
   text-decoration: underline;
   margin-bottom: 20px;
 }
+.title:hover{
+  pointer:cursor;
+}
 table.options{
   width: 30%;
   margin: 0 auto;
