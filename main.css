@@ -7,34 +7,24 @@ img{
   margin: 0 auto;
   display: block;
 }
+.title img{
+  width: 42%;
+  cursor: pointer;
+}
 body{
   padding: 50px 100px;
   font-family: Quicksand, Calibri, sans-serif;
-}
-a:hover{
-  cursor:pointer;
+
 }
 .title{
   text-align: center;
   text-decoration: underline;
   margin-bottom: 20px;
-  transition:.2s;
-}
-.title:hover{
-  cursor:pointer;
 }
 table.options{
   width: 30%;
   margin: 0 auto;
   margin-bottom: 30px;
-}
-div.options div p:hover{
-  text-decoration:underline;
-  cursor:pointer
-}
-button:hover{
- transform: scale(1.1);
-transition: 0.2s;
 }
 .grid{
 display: grid;
@@ -77,7 +67,8 @@ th h3, th p, th button{
   width:150%;
 }
 hr{
-  width: 100vw;
+  width: 10000%;
+  margin-left: -100px;
   margin-top: 100px;
 }
 footer{
@@ -87,12 +78,9 @@ footer{
 }
 button{
   padding: 10px;
-  background:#5caad2;
-  color: white;
-  transition: 0.2s;
-  font-weight: 700;
-  border: none;
-  }
+    background:#5caad2;
+    color: white;
+}
 div.options{
   text-align: center;
 }
@@ -101,6 +89,10 @@ div.options p{
 }
 div.options div{
   display: inline-flex;
+  margin-bottom: 20px;
+}
+div.options div{
+  cursor: pointer;
 }
 @media (max-width:800px){
 body{
@@ -129,9 +121,21 @@ div.social{
 img{
   width: 100%;
 }
+.title img{
+  width:70%;
+}
 }
 @media(max-width:510px){
   .maincontent p {
      width: auto;
 }
-} 
+}
+@media(max-width:215px){
+div.options div{
+  font-size: 0.85em;
+}
+div.options p {
+    margin: 5px;
+
+}
+}
